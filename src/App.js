@@ -1,6 +1,7 @@
 import React from "react";
 import bmximg from './imgs/bmx.jpg';
 import ufcimg from './imgs/ufc.jpg';
+import futimg from './imgs/fut.jpg';
 import logo from './logo.svg';
 import "./App.css";
 
@@ -55,6 +56,10 @@ function App() {
           <div className="galeria_item">
             <img src={ufcimg}/>
             <p>UFC</p>
+          </div>
+          <div className="galeria_item">
+            <img src={futimg}/>
+            <p>FUTBOL</p>
           </div>
         </div>
       </section>
